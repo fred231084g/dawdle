@@ -1,19 +1,2 @@
 # Copyright IBM Corp. 2021, 2025
-# SPDX-License-Identifier: MPL-2.0
-
-version: 2
-
-updates:
-  - package-ecosystem: "github-actions"
-    directory: "/"
-    schedule:
-      interval: "weekly"
-    commit-message:
-      prefix: "[chore] : "
-
-  - package-ecosystem: "gomod"
-    directory: "/"
-    schedule:
-      interval: "weekly"
-    commit-message:
-      prefix: "[chore] : "
+# 
